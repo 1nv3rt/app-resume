@@ -1,0 +1,19 @@
+.child-profile{
+	display: grid;
+	justify-items: center;
+	align-self: center;
+}
+
+.img-circular{
+	border: 7px solid #fff;
+	border-radius: 50%;
+}
+.profiles{
+	height: 100%;
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	justify-items: stretch;
+}
+p{
+	margin: 0;
+}

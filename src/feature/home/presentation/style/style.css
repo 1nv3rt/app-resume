@@ -1,0 +1,43 @@
+
+.cont{
+	height: 100vh;
+	width: 100%;
+	background-color: #282631;
+	position: relative;
+}
+.bottomL{
+	bottom: 0;
+	position: absolute;
+	height: 30vh;
+	width: 20vw;
+}
+
+.bottomR{
+	right: 0;
+	bottom: 0;
+	position: absolute;
+	height: 50vh;
+	width: 70vw;
+}
+.topR{
+	right: 0;
+	position: absolute;
+	height: 40vh;
+	width: 20vw;
+}
+.topL{
+	top: 0;
+	position: absolute;
+	height: 30vh;
+	width: 15vw;
+}
+.n5{
+	left: 15%;
+	top: 50%;
+	transform: translateY(-50%);
+	position: absolute;
+	border-radius: 10px;
+	background: #3F3E44;
+	height: 70vh;
+	width: 70%;
+}
